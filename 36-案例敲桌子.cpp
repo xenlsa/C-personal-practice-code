@@ -1,18 +1,17 @@
 #include <iostream>
 using namespace std;
-int main(){
-    int i=1;
-    for( ; i<=100; i++)
+int main()
+{
+    for (int i = 1; i < 101; i++)
     {
-        if( i%7==0 || i%10==7 || i/10==7 )//是特殊数字
+        if (i % 10 == 7 || i / 10 == 7 || i % 7 == 0)
         {
             cout << "敲桌子" << endl;
         }
         else
         {
-            cout << i <<endl;
+            cout << i << endl;
         }
-
     }
     system("pause");
     return 0;
