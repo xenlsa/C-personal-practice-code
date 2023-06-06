@@ -16,6 +16,7 @@ int main()
     {
         cout << *p2 << endl;
         p2++;
+
     }
     system("pause");
     return 0;
